@@ -8,7 +8,7 @@ const Projects = () => {
       title: 'UMP Connect-Event Managent',
       description: 'digital platform designed for the University of Mpumalanga community to streamline communication, event management, and news updates. It provides a centralized system where students, faculty managers, and administrators can interact efficiently',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Node.js', 'Firebase', 'Material-UI'],
-      image: '/images/projects/ump-connect.png',
+      image: `${process.env.PUBLIC_URL}/images/projects/ump-connect.png`,
       github: 'https://github.com/Thamia21/ump-connect',
       
     },
@@ -16,7 +16,7 @@ const Projects = () => {
       title: 'Kiosk ordering system',
       description: 'An interactive self-service kiosk system designed for Diatla Restaurant, enabling customers to browse menus, place orders, and make payments independently. The system features an intuitive user interface, real-time order processing, and seamless payment integration, enhancing the dining experience while reducing wait times and improving operational efficiency.',
       technologies: ['Python', 'Node.js', 'Email.js', 'Firebase', 'Stripe', 'Material-UI','Bootstrap'],
-      image: '/images/projects/kiosk-system.png',
+      image: `${process.env.PUBLIC_URL}/images/projects/kiosk-system.png`,
       github: 'https://github.com/Thamia21/diatla-kiosk',
       
     },
@@ -24,7 +24,7 @@ const Projects = () => {
       title: 'Static Hospital website',
       description: 'digital platform designed to modernize and enhance healthcare services for the Matibidi community. The website serves as an accessible, user-friendly portal for patients, staff, and visitors.',
       technologies: ['HTML5', 'JavaScript', 'Bootstrap', 'CSS3'],
-      image: '/images/projects/hospital-website.png',
+      image: `${process.env.PUBLIC_URL}/images/projects/hospital-website.png`,
       github: 'https://github.com/Thamia21/Matibidi-Hospital',
       
     },
@@ -32,7 +32,7 @@ const Projects = () => {
       title: 'Hospital Management System',
       description: 'A comprehensive, multilingual hospital management system built for South African healthcare providers. ',
       technologies: ['React', 'node.js', 'stripe', 'Express', 'MongoDB', 'Material-UI', 'Bootstrap'],
-      image: '/images/projects/hospital-management.png',
+      image: `${process.env.PUBLIC_URL}/images/projects/hospital-management.png`,
       github: 'https://github.com/Thamia21/hospital-management',
       
     },
@@ -40,7 +40,7 @@ const Projects = () => {
       title: 'Portfolio Website',
       description: 'A modern and responsive portfolio website showcasing projects and skills.',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Animations'],
-      image: '/images/projects/portfolio.png',
+      image: `${process.env.PUBLIC_URL}/images/projects/portfolio.png`,
       github: 'https://github.com/Thamia21/Thamia21.github.io',
      
     },

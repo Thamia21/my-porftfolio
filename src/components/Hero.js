@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
           <div className="hero-image">
             <div className="image-placeholder">
-              <img src="/images/profile/copy img.png" alt="Keneilwe Sedibe" className="profile-picture" />
+              <img src={`${process.env.PUBLIC_URL}/images/profile/copy img.png`} alt="Keneilwe Sedibe" className="profile-picture" />
               <div className="animated-circle"></div>
               <div className="animated-circle-2"></div>
             </div>
