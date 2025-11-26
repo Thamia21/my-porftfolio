@@ -44,14 +44,13 @@ const Projects = () => {
       github: 'https://github.com/Thamia21/Thamia21.github.io',
      
     },
-    /*{
-      title: 'Blog Platform',
-      description: 'A full-featured blogging platform with markdown support and comment system.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'JWT'],
-      image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&h=600&fit=crop',
-      github: 'https://github.com',
-      demo: 'https://demo.com'
-    }*/
+    {
+      title: 'E-commerce Website',
+      description: 'A full-featured e-commerce platform with product catalog, shopping cart, and payment processing.',
+      technologies: ['React', 'Node.js', 'PostgreSQL', 'JWT', 'MongoDB'],
+      image: `${process.env.PUBLIC_URL}/images/projects/e-commerce.png`,
+      github: 'https://github.com/Thamia21/E-Commerce-store.git'
+    }
   ];
 
   return (
