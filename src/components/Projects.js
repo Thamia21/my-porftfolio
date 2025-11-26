@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Projects.css';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects = () => {
+  const [showAll, setShowAll] = useState(false);
+  
   const projects = [
     {
       title: 'UMP Connect-Event Managent',
@@ -53,12 +55,15 @@ const Projects = () => {
     }
   ];
 
+  // Show only first 3 projects initially, or all if showAll is true
+  const displayedProjects = showAll ? projects : projects.slice(0, 3);
+
   return (
     <section id="projects" className="projects">
       <div className="container">
         <h2 className="section-title">Featured Projects</h2>
         <div className="projects-grid">
-          {projects.map((project, index) => (
+          {displayedProjects.map((project, index) => (
             <div key={index} className="project-card">
               <div className="project-image">
                 <img src={project.image} alt={project.title} />
@@ -85,6 +90,18 @@ const Projects = () => {
             </div>
           ))}
         </div>
+        
+        {/* View More / View Less Button */}
+        {projects.length > 3 && (
+          <div className="view-more-container">
+            <button 
+              className="view-more-btn" 
+              onClick={() => setShowAll(!showAll)}
+            >
+              {showAll ? 'View Less' : `View More Projects (${projects.length - 3} more)`}
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

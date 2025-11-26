@@ -1,0 +1,16 @@
+PLACEHOLDER FILE
+
+This is a placeholder file to ensure the certificates folder is tracked by git.
+
+To add your certificates:
+1. Place your PDF files in this folder (public/certificates/)
+2. Update the certificatePdf paths in src/components/Achievements.js
+3. Delete this placeholder file
+
+Example PDF filenames:
+- react-certificate.pdf
+- javascript-certification.pdf
+- aws-cloud-practitioner.pdf
+- hackathon-winner.pdf
+
+Remember: Use descriptive names without spaces (use hyphens or underscores instead).
