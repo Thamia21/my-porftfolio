@@ -34,7 +34,7 @@ const About = () => {
           <div className="about-text">
             <p className="about-description">
               I'm a passionate Full Stack Developer with a love for creating elegant solutions 
-              to complex problems. With expertise in modern web technologies, I specialize in 
+              to complex problems. With expertise in modern web and mobile technologies, I specialize in 
               building scalable applications that provide exceptional user experiences.
             </p>
             <p className="about-description">

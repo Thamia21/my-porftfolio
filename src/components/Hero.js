@@ -10,10 +10,10 @@ const Hero = () => {
           <div className="hero-text">
             <h1 className="hero-greeting">Hi, I'm</h1>
             <h1 className="hero-name">Keneilwe Sedibe</h1>
-            <h2 className="hero-title">Front-End Developer|Junior Full Stack Developer</h2>
+            <h2 className="hero-title">Full Stack Developer</h2>
             <p className="hero-description">
-              I am a passionate Front-End and Junior Full Stack Developer with a strong focus
-              on building responsive, user-friendly, and functional web applications. I enjoy turning
+              I am a passionate Full Stack Developer with a strong focus
+              on building responsive, user-friendly, and functional web applications and mobile applications. I enjoy turning
                ideas into interactive digital experiences using modern technologies.
             </p>
             <div className="hero-buttons">
@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
           <div className="hero-image">
             <div className="image-placeholder">
-              <img src={`${process.env.PUBLIC_URL}/images/profile/copy img.png`} alt="Keneilwe Sedibe" className="profile-picture" />
+              <img src={`${process.env.PUBLIC_URL}/images/profile/pp.jpeg`} alt="Keneilwe Sedibe" className="profile-picture" />
               <div className="animated-circle"></div>
               <div className="animated-circle-2"></div>
             </div>
