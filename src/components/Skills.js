@@ -14,13 +14,21 @@ const Skills = () => {
       ]
     },
     {
-      category: 'Backend',
+      category: 'Backend & Databases',
       skills: [
         { name: 'Node.js', icon: 'devicon-nodejs-plain colored', level: 70 },
         { name: 'Python', icon: 'devicon-python-plain colored', level: 80 },
         { name: 'Express', icon: 'devicon-express-original', level: 60 },
         { name: 'MongoDB', icon: 'devicon-mongodb-plain colored', level: 80 },
-    { name: 'Firebase', icon: 'devicon-firebase-plain colored', level: 80 }
+    { name: 'Firebase', icon: 'devicon-firebase-plain colored', level: 80 },
+        { name: 'Django', icon: 'devicon-django-plain colored', level: 70 }
+      ]
+    },
+    {
+      category: 'Mobile Development',
+      skills: [
+        { name: 'Flutter', icon: 'devicon-flutter-original-wordmark colored', level: 75 },
+        { name: 'Dart', icon: 'devicon-dart-plain colored', level: 70 },
       ]
     },
     {

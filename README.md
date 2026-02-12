@@ -16,6 +16,8 @@ A modern, responsive portfolio website built with React.js showcasing projects, 
 ## Technologies Used
 
 - **React.js** - Frontend framework
+- **Flutter** - Cross-platform mobile development
+- **Django** - Backend web framework
 - **CSS3** - Styling with modern features
 - **React Icons** - Icon library
 - **Devicon** - Technology icons

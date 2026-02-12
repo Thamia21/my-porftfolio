@@ -52,7 +52,21 @@ const Projects = () => {
       technologies: ['React', 'Node.js', 'PostgreSQL', 'JWT', 'MongoDB'],
       image: `${process.env.PUBLIC_URL}/images/projects/e-commerce.png`,
       github: 'https://github.com/Thamia21/E-Commerce-store.git'
-    }
+    },
+    /*{
+      title: 'Flutter Mobile App',
+      description: 'A cross-platform mobile application built with Flutter, featuring a modern UI, real-time data synchronization, and offline capabilities. The app provides seamless user experience across both iOS and Android platforms.',
+      technologies: ['Flutter', 'Dart', 'Firebase', 'REST API', 'Provider'],
+      image: `${process.env.PUBLIC_URL}/images/projects/flutter-app.png`,
+      github: 'https://github.com/Thamia21/flutter-mobile-app'
+    },
+    {
+      title: 'Django Web Application',
+      description: 'A full-featured web application built with Django framework, implementing user authentication, RESTful APIs, and admin panel. The application includes database models, business logic, and secure deployment configuration.',
+      technologies: ['Django', 'Python', 'PostgreSQL', 'REST Framework', 'JWT', 'Docker'],
+      image: `${process.env.PUBLIC_URL}/images/projects/django-app.png`,
+      github: 'https://github.com/Thamia21/django-web-app'
+    }*/
   ];
 
   // Show only first 3 projects initially, or all if showAll is true
