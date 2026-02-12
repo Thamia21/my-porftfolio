@@ -27,7 +27,7 @@ const Skills = () => {
     {
       category: 'Mobile Development',
       skills: [
-        { name: 'Flutter', icon: 'devicon-flutter-original-wordmark colored', level: 75 },
+        { name: 'Flutter', icon: 'devicon-android-plain colored', level: 75 },
         { name: 'Dart', icon: 'devicon-dart-plain colored', level: 70 },
       ]
     },
